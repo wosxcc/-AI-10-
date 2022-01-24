@@ -1,6 +1,2 @@
-paddlepaddle
-paddlehub
-visualdl
-paddleseg
-paddlenlp
-paddleocr
+pytorch 1.7.1
+opencv-python 4.3.0.36
