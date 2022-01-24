@@ -6,14 +6,21 @@ AI-Studio-百度网盘AI大赛——图像处理挑战赛
 本次图像处理挑战赛以线上比赛的形式进行，参赛选手需要在规定时间内，完成模型设计搭建与训练优化，并提交基于评测数据集产出的结果文件，榜单排名靠前且通过代码复查的队伍可获得高额奖金。
 
 项目结构
+
 -|weight           存放了训练好的模型 Bmodel_272.pkl为pytorch 版本 SEResnte60为 paddleseg版本
+
 -|pytorch版本       为pytorch版本的训练代码和验证代码
--README.MD
+
 -read_datac.py     为数据转为语义分割数据以及训练文件的生成
+
 -x2paddle_code.py  为paddleseg下的模型文件
+
 -data_train_paddleseg.py 为训练时数据增强的文件
+
 -train.py          为训练文件
+
 -paddleseg_model_val.py  为模型验证文件
+
 使用方式
 见 main.ipynb文件
 
